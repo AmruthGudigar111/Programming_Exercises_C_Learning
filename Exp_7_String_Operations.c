@@ -7,7 +7,7 @@ int main() {
     char str[100];
     int vowels = 0, consonants = 0, digits = 0, spaces = 0, i;
 
-    printf("Enter a string: ");
+    printf("\nEnter a string: ");
     fgets(str, sizeof(str), stdin);
 
     for(i = 0; str[i] != '\0'; i++) {
@@ -24,6 +24,6 @@ int main() {
         }
     }
 
-    printf("Vowels: %d\nConsonants: %d\nDigits: %d\nWhite spaces: %d\n", vowels, consonants, digits, spaces);
+    printf("\nVowels: %d\nConsonants: %d\nDigits: %d\nWhite spaces: %d\n", vowels, consonants, digits, spaces);
     return 0;
 }

@@ -10,13 +10,13 @@ struct Student {
 int main() {
     struct Student s;
 
-    printf("Enter name: ");
+    printf("\nEnter name: ");
     scanf("%s", s.name);
-    printf("Enter age: ");
+    printf("\nEnter age: ");
     scanf("%d", &s.age);
-    printf("Enter marks: ");
+    printf("\nEnter marks: ");
     scanf("%f", &s.marks);
 
-    printf("Student Info:\nName: %s\nAge: %d\nMarks: %.2f\n", s.name, s.age, s.marks);
+    printf("\nStudent Info:\nName: %s\nAge: %d\nMarks: %.2f\n", s.name, s.age, s.marks);
     return 0;
 }

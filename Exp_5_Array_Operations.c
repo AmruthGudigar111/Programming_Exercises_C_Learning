@@ -3,10 +3,10 @@
 
 int main() {
     int a[100], n, i, max, min;
-    printf("Enter number of elements: ");
+    printf("\nEnter number of elements: ");
     scanf("%d", &n);
 
-    printf("Enter elements:\n");
+    printf("\nEnter elements:\n");
     for(i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
@@ -19,6 +19,6 @@ int main() {
             min = a[i];
     }
 
-    printf("Max: %d\nMin: %d\n", max, min);
+    printf("\nMax: %d\nMin: %d\n", max, min);
     return 0;
 }

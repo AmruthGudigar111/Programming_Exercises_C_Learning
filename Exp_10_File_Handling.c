@@ -6,7 +6,7 @@ int main() {
     char str[100];
 
     fp = fopen("data.txt", "w");
-    fprintf(fp, "Hello file handling in C!\n");
+    fprintf(fp, "\nHello file handling in C!\n");
     fclose(fp);
 
     fp = fopen("data.txt", "r");

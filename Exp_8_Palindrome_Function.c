@@ -14,13 +14,13 @@ int is_palindrome(int num) {
 
 int main() {
     int n;
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &n);
 
     if(is_palindrome(n))
-        printf("Palindrome\n");
+        printf("\nPalindrome\n");
     else
-        printf("Not a palindrome\n");
+        printf("\nNot a palindrome\n");
 
     return 0;
 }

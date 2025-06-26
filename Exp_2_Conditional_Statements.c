@@ -3,15 +3,15 @@
 
 int main() {
     int num;
-    printf("Enter a number: ");
+    printf("\nEnter a number: ");
     scanf("%d", &num);
 
     if (num > 0)
-        printf("Positive\n");
+        printf("\nPositive\n");
     else if (num < 0)
-        printf("Negative\n");
+        printf("\nNegative\n");
     else
-        printf("Zero\n");
+        printf("\nZero\n");
 
     return 0;
 }
