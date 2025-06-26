@@ -57,8 +57,9 @@ Programming_Exercises_C_Learning/
 
 1. Make sure you have a C compiler like `gcc`.
 2. Compile using:
-   gcc filename.c -o output
-   ./output
+
+   -   gcc filename.c -o output
+   -   ./output
 3. Replace `filename.c` with the desired file.
 
 ## 🎓 Ideal For
